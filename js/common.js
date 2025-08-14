@@ -152,19 +152,6 @@ $(function() {
       e.preventDefault();
       const tabId = button.getAttribute('data-tab');
       activateTab(tabId);
-
-      // Update URL (no reload)
-      const url = new URL(window.location.href);
-      url.searchParams.set('tab', tabId);
-      history.replaceState(null, '', url);
     });
   });
-
-  // When loading the page: read ?tab=
-  const params = new URLSearchParams(window.location.search);
-  const initialTab = params.get('tab');
-
-  if (initialTab) {
-    activateTab(initialTab);
-  }
 });
