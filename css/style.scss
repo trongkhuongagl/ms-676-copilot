@@ -708,9 +708,8 @@ img {
 
   @media screen and (max-width: 750px) {
     height: vw_sp(100);
-    font-size: vw_sp(23);
+    font-size: vw_sp(18);
     padding: vw_sp(5);
-    white-space: nowrap;
   }
 }
 
@@ -776,6 +775,7 @@ img {
   }
 
   @media screen and (max-width: 750px) {
+    background-image: url('../images/bg_tab_01_sp.jpg');
     padding: vw_sp(50) vw_sp(40) vw_sp(161) vw_sp(45);
     margin-top: vw_sp(32);
     border-width: vw_sp(6);

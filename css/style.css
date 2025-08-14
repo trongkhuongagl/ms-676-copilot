@@ -766,9 +766,8 @@ img {
 @media screen and (max-width: 750px) {
   .tab_btn {
     height: 13.3333333333vw;
-    font-size: 3.0666666667vw;
+    font-size: 2.4vw;
     padding: 0.6666666667vw;
-    white-space: nowrap;
   }
 }
 
@@ -846,6 +845,7 @@ img {
 }
 @media screen and (max-width: 750px) {
   .tab_content {
+    background-image: url("../images/bg_tab_01_sp.jpg");
     padding: 6.6666666667vw 5.3333333333vw 21.4666666667vw 6vw;
     margin-top: 4.2666666667vw;
     border-width: 0.8vw;
