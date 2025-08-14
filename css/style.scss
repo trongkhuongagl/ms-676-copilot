@@ -711,7 +711,6 @@ img {
     height: vw_sp(100);
     font-size: vw_sp(23);
     padding: vw_sp(5);
-    letter-spacing: -0.042em;
     white-space: nowrap;
   }
 }
@@ -750,7 +749,6 @@ img {
 .tab_btn_creator {
   @media screen and (max-width: 750px) {
     flex-direction: column;
-    letter-spacing: vw_sp(-6);
     gap: vw_sp(15);
     padding-top: vw_sp(30);
 
@@ -771,8 +769,8 @@ img {
   display: none;
   border: 6px solid #fff;
   padding: 41px 15px 53px 34px;
-  background-image: url('../images/bg_tab_01.png');
-  background-position: bottom;
+  background-image: url('../images/bg_tab_01.jpg');
+  background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 19px;
@@ -1058,7 +1056,6 @@ img {
     @media screen and (max-width: 750px) {
       font-size: vw_sp(28);
       margin-bottom: vw_sp(74);
-      letter-spacing: -0.036em;
       margin-left: vw_sp(-25);
       margin-right: vw_sp(-25);
       line-height: 1.8;
