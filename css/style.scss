@@ -686,7 +686,6 @@ img {
     margin-left: 8px;
     background: none;
     -webkit-text-fill-color: #000;
-    letter-spacing: 0;
 
     @media screen and (max-width: 1200px) {
       font-size: vw_pc(13);
@@ -740,21 +739,11 @@ img {
   }
 }
 
-.tab_btn_window {
-  @media screen and (max-width: 750px) {
-    letter-spacing: 0;
-  }
-}
-
 .tab_btn_creator {
   @media screen and (max-width: 750px) {
     flex-direction: column;
     gap: vw_sp(15);
     padding-top: vw_sp(30);
-
-    .num {
-      letter-spacing: 0;
-    }
   }
 }
 

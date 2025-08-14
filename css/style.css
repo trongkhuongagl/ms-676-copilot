@@ -741,7 +741,6 @@ img {
   margin-left: 8px;
   background: none;
   -webkit-text-fill-color: #000;
-  letter-spacing: 0;
 }
 @media screen and (max-width: 1200px) {
   .tab_btn .num {
@@ -804,12 +803,6 @@ img {
 }
 
 @media screen and (max-width: 750px) {
-  .tab_btn_window {
-    letter-spacing: 0;
-  }
-}
-
-@media screen and (max-width: 750px) {
   .tab_btn_creator {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -817,9 +810,6 @@ img {
             flex-direction: column;
     gap: 2vw;
     padding-top: 4vw;
-  }
-  .tab_btn_creator .num {
-    letter-spacing: 0;
   }
 }
 
